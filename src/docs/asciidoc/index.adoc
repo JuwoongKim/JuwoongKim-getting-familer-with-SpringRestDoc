@@ -1,0 +1,37 @@
+= REST DOC EXAMPLE
+Rest Documentation 실습
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+:operation-http-request-title: Example request
+:operation-http-response-title: Example response
+
+[[MEMBER-API]]
+== MEMBER
+
+[[GET-MEMBER]]
+=== GET MEMBER
+operation::getMember[snippets='http-request,http-response']
+
+[[GET-MEMBERS]]
+=== GET MEMBERS
+operation::getMembers[snippets='http-request,http-response']
+
+[[CREATE-MEMBERS]]
+=== GET MEMBERS
+operation::createMember[snippets='http-request,http-response']
+
+[[DELETE-MEMBERS]]
+=== DELETE MEMBERS
+operation::deleteMember[snippets='http-request,http-response']
+
+[[PUT-MEMBERS]]
+=== PUT MEMBERS
+operation::putUpdateMember[snippets='http-request,http-response']
+
+[[PATCH-MEMBERS]]
+=== PATCH MEMBERS
+operation::patchUpdateMember[snippets='http-request,http-response']
